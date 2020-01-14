@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import config from '../../config';
 import Scroll from './Scroll';
+import logoName from '../assets/images/logo-name.png';
+import logo from '../assets/images/logo.png'
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -41,6 +43,7 @@ export default class Header extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
+            <img src={logo} style={{width: '43px', height: '40px', marginRight: '10%'}} alt="" /> 
             {config.siteTitle}
           </a>
           <button

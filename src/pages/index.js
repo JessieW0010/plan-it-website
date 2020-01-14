@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 import Social from '../components/Social';
 
-import demo1 from '../assets/images/demo-screen-1.jpg';
+import demo1 from '../assets/images/demo-screen.png';
 import gplay from '../assets/images/google-play-badge.svg';
 import astore from '../assets/images/app-store-badge.svg';
 
@@ -20,8 +20,8 @@ const IndexPage = () => (
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                New Age is an gatsby starter for app landing page that will help
-                you beautifully showcase your new mobile app, or anything else!
+                PlanIt is the mobile app that will help
+                you and your friends plan trips collaboratively!
               </h1>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn btn-outline btn-xl">
@@ -51,12 +51,12 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md-8 mx-auto">
             <h2 className="section-heading">
-              Discover what all the buzz is about!
+              Coming out to stores in Summer of 2020!
             </h2>
-            <p>
+            {/* <p>
               Our app is available on any mobile device! Download now to get
               started!
-            </p>
+            </p> */}
             <div className="badges">
               <a className="badge-link" href="/#">
                 <img src={gplay} alt="" />
@@ -73,9 +73,9 @@ const IndexPage = () => (
     <section className="features" id="features">
       <div className="container">
         <div className="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
+          <h2>Create a trip, invite some friends, <b>Plan It!</b></h2>
           <p className="text-muted">
-            Check out what you can do with this app theme!
+            Check out all the great collaborative planning features!
           </p>
           <hr />
         </div>
@@ -98,20 +98,18 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
+                    <h3>Flexible Use</h3>
                     <p className="text-muted">
-                      Ready to use HTML/CSS device mockups, no Photoshop
-                      required!
+                      We believe in providing our users with a clean and convenient user experience.
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
+                    <h3>Plan Socially</h3>
                     <p className="text-muted">
-                      Put an image, video, animation, or anything else in the
-                      screen!
+                      Make planning a trip a group experience! Anyone can add events, to do items, and split expenses!
                     </p>
                   </div>
                 </div>
@@ -150,7 +148,7 @@ const IndexPage = () => (
           <h2>
             Stop waiting.
             <br />
-            Start building.
+            Plan It.
           </h2>
           <Scroll type="id" element="contact">
             <a href="#contact" className="btn btn-outline btn-xl">
